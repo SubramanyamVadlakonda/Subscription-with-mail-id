@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.bg-container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 13px 13%;
+    color: whitesmoke;
+}
+.bg-container h3 {
+    margin-top: 13%;
+    font-size: 28px;
+    font-weight: 450;
+}
+.bg-container h1 {
+    font-size: 45px;
+    margin-top: 28px;
+}
+.bg-container p {
+    margin: 10px 0 50px ;
+}
+form {
+    background: wheat;
+    display: flex;
+    width: fit-content;
+}
+form input {
+    border: 0;
+    outline: none;
+    font-size: 19px;
+    width: 440px;
+    height: 71px;
+    padding: 10px 20px;
+}
+form button {
+    background: limegreen;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 99px;
+    height: 71px;
+}
+span {
+    display: block;
+    margin-top: 12px;
+    color: limegreen;
+}
